@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.todo-container {
+  display: flex;
+  border: 1px solid gray;
+  width: 500px;
+  height: 500px;
+  gap: 250px;
+  margin-top: 15px;
+  padding: 20px;
+}
+.main-container input {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  padding: 8px;
+}
+.main-button {
+  margin: auto;
+  width: 500px;
+  padding: 8px;
+  cursor: pointer;
+}
+.main-container {
+  border: 1px solid black;
+  padding: 20px;
+}
+p {
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+.left-container {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+button {
+  width: 50px;
+}
